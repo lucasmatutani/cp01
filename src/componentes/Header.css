@@ -1,0 +1,40 @@
+.header-main{ 
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: center; 
+    color: #ffff;
+    max-width: 1160px;
+}
+        
+.header-menu nav ul li{
+    display: inline-block; 
+    margin: 0;
+    padding: 20px 10px;   
+}
+
+.header-menu nav ul li:hover{
+    background-color: #363636;
+}
+
+.header-menu nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width:788px) and (max-width: 979px) {
+
+}
+
+@media only screen and (max-width: 787px) {
+
+}

@@ -1,0 +1,76 @@
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30%;
+}
+
+.title{
+    width: 744px;
+    align-items: center;
+}
+
+.title h1{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+
+}
+
+.title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.autor{
+    display: flex;
+    
+}
+
+.update{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4d4d4d;
+    font-style: normal;
+    display: flex;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    width: 744px;
+    padding: 0 40px;
+}
+
+.logo{
+    margin-bottom: 20px;
+    width: 640px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img{
+    width: 130px;
+    height: 87px;
+    display: block;
+    position: static;
+}
+
+.post-content{
+    display: flex;
+    max-width: 100%;
+}
+
+.post-content p{ 
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .01em;
+    color: #262626;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
